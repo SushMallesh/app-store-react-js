@@ -1,0 +1,49 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  min-height: 100vh;
+  padding-top: 30px;
+}
+.app-store-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.heading {
+  color: #1e293b;
+  font-size: 52px;
+  font-family: 'Bree Serif';
+}
+.search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid #7b8794;
+  height: 30px;
+  max-width: 300px;
+  border-radius: 4px;
+}
+.input {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  outline: none;
+}
+.search-icon {
+  width: 20px;
+}
+.tab-items-list {
+  display: flex;
+  padding: 0;
+  border-bottom: 1px solid #7b8794;
+  margin-top: 35px;
+}
+.apps-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 85%;
+}
